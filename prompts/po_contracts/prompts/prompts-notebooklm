@@ -1,0 +1,54 @@
+# ⚡ Prompts Poderosos — NotebookLM + Skill
+
+**Os prompts da série "Extração de Conhecimento com IA", prontos para copiar.**
+
+## Parte 1 — Extração no NotebookLM
+
+Use após alimentar o notebook com vídeos, documentação e transcrições:
+
+1. **Guia executivo**
+   > Crie um guia executivo para consultor sênior: visão geral, benefícios, riscos e recomendações estratégicas.
+
+2. **Checklists de discovery**
+   > Extraia checklists de discovery, principais gaps e armadilhas de implantação — pronto para workshops.
+
+3. **Macetes de campo**
+   > Liste macetes, workarounds, configurações escondidas e melhores práticas — o que só quem já implementou sabe.
+
+4. **Proposta comercial**
+   > Gere template de proposta comercial e seção de ROI, com linguagem de consultoria sênior.
+
+5. **Workshop de discovery**
+   > Monte checklist completo de discovery workshop com perguntas por tema, incluindo integrações, segurança e compliance.
+
+6. **Matriz de riscos**
+   > Identifique riscos, impactos, probabilidade e plano de mitigação, classificados por nível.
+
+7. **Nativo vs customização**
+   > Compare alternativas nativas x customizações, com trade-offs claros.
+
+8. **Plano de domínio**
+   > Crie plano de 30-60 dias para dominar o módulo e preparar um projeto, com foco em consultor.
+
+9. **Material para cliente**
+   > Transforme isso em material para cliente: one-pager, storyboard ou apresentação executiva.
+
+## Parte 2 — Entregáveis com a skill (qualquer IA)
+
+Depois de colar a skill (ex.: Cameron) no início da conversa:
+
+- > Usando todo esse contexto, monte um checklist completo de Discovery para [MÓDULO].
+- > Prepare uma seção de proposta comercial destacando benefícios, ROI e diferenciais.
+- > Liste os principais riscos, macetes e workarounds da integração entre [MÓDULO A] e [MÓDULO B].
+- > Monte um plano de workshops com perguntas estratégicas para cada etapa do projeto.
+- > Compare as melhores práticas do Oracle Cloud com processos legados e identifique oportunidades de melhoria.
+
+## Como adaptar
+
+Troque o módulo/tema no texto do prompt — a estrutura funciona para qualquer
+domínio (Procurement, Financials, HCM, SCM...). O segredo não é o prompt
+perfeito: é o CONTEXTO que você deu antes (fontes no NotebookLM, skill na IA).
+
+---
+
+*Parte do pack "Extração de Conhecimento com IA" — Oracle Cloud Kitchen 🍳*
