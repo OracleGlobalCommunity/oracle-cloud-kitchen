@@ -1,0 +1,68 @@
+# 🧪 Receita: Extração de Conhecimento com IA
+
+**Transforme horas de vídeos do YouTube em uma especialista sênior ao seu lado.**
+
+O workflow completo da série "Extração de Conhecimento com IA" — testado em
+projeto real (Oracle Procurement Contracts → skill Cameron).
+
+## Visão geral do fluxo
+
+```
+Vídeos/Docs → NotebookLM → Inteligência estruturada → skill.md → IA especialista
+   (1)           (2)              (3)                    (4)          (5)
+```
+
+## Passo 1 — Reúna o conteúdo
+
+- Escolha vídeos relevantes sobre o módulo/tema: demos oficiais, apresentações
+  de conferência, entrevistas com implementadores, estudos de caso.
+- Critério de qualidade: prefira quem JÁ IMPLEMENTOU (erros e workarounds
+  valem mais que features).
+- Junte também documentação oficial e transcrições que você tiver.
+
+## Passo 2 — Extraia o conhecimento (NotebookLM)
+
+- Crie um notebook por tema (não misture módulos).
+- Adicione as fontes: links do YouTube (ele extrai a transcrição), PDFs, docs.
+- Deixe o NotebookLM gerar os overviews (áudio, vídeo, slides) — são seus
+  materiais de estudo e divulgação.
+
+## Passo 3 — Transforme em inteligência estruturada
+
+Use os prompts do arquivo [`prompts/prompts-notebooklm.md`](../prompts/prompts-notebooklm.md)
+dentro do NotebookLM para extrair:
+
+- Guia executivo (visão, benefícios, riscos, recomendações)
+- Checklists de discovery, gaps e armadilhas de implantação
+- Macetes, workarounds e configurações escondidas
+- Riscos com probabilidade/impacto/mitigação
+- Material comercial (proposta, ROI)
+
+## Passo 4 — Crie sua especialista (skill.md)
+
+- Pegue o template em [`skills/skill-template.md`](../skills/skill-template.md).
+- Preencha o esqueleto de 14 seções com o material do passo 3.
+- Dê um nome e uma persona à skill (a nossa é a Cameron 👋).
+- Exemplo preenchido: [`skills/cameron-skill.md`](../skills/cameron-skill.md).
+
+## Passo 5 — Use no dia a dia
+
+- Cole a skill INTEIRA como primeira mensagem da conversa (uma vez por sessão).
+- Funciona em Claude, ChatGPT, Gemini, Kimi, GLM e praticamente qualquer IA.
+- Não peça respostas — peça **entregáveis**: checklist de discovery, seção de
+  proposta, matriz de riscos, roteiro de workshop.
+- Use os modos interativos (Coach, Skill Tester) para fixar o conhecimento.
+
+## Regras de ouro
+
+1. **Uma skill por sessão** — misturar especialistas dilui o contexto.
+2. **Valide objetos técnicos** — nomes de tabelas/colunas mudam por release;
+   confirme na doc oficial antes de usar em produção.
+3. **A skill é viva** — cada projeto ensina algo; volte e enriqueça as seções
+   de armadilhas e dicas de campo.
+4. **O esqueleto é o produto** — o conteúdo é intercambiável; o mesmo template
+   serve para qualquer módulo, de AP a HCM.
+
+---
+
+*Parte do pack "Extração de Conhecimento com IA" — Oracle Cloud Kitchen 🍳*
