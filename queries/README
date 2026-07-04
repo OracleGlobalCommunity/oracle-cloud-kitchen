@@ -1,31 +1,71 @@
-# Oracle Fusion Cloud ERP — SQL Query Repository
+# Queries SQL — Oracle Fusion Cloud ERP 🍽️
 
-A curated collection of consultant-grade SQL queries for **Oracle Fusion Cloud ERP 26B**, organized by module, fully parameterized (no client data) and documented with a standard header in every file.
+## 🇧🇷 Versão em Português (PT-BR)
 
-Originally written on real implementation projects (EBS R12 era), converted and remapped to Fusion Cloud 26B tables and views, then cleaned, parameterized and documented with AI-assisted refactoring.
+**Queries SQL prontas por módulo, parametrizadas e documentadas — Oracle Fusion Cloud ERP 26B**
 
-## Structure
+Criadas por consultores para consultores. Nascidas em projetos reais (era EBS R12), convertidas para as tabelas e views do Fusion Cloud 26B, limpas, parametrizadas e documentadas com refactoring assistido por IA.
 
-| Folder | Module | Queries |
-|---|---|---|
-| [GL](./GL) | General Ledger | Trial balance by segment · Journal lines (razão) · SLA account analysis |
-| [AP](./AP) | Payables | Open invoices aging · Invoice distributions with PO · Invoices on hold |
-| [FA](./FA) | Assets | Multi-book depreciation comparison · Cost transactions by period · Categories by book |
-| [CE](./CE) | Cash Management | Internal bank account setup with BU and GL accounts |
+### O que tem aqui?
 
-## How to use
+- Queries prontas para BI Publisher / OTBI, organizadas por módulo
+- Zero dados de cliente — tudo virou bind variable `:p_*`
+- Cabeçalho padrão em cada query: Purpose, Tables Used, Report Output, Parameters, Notes, Module
+- README explicativo em cada pasta de módulo
+- Convenções de parametrização e aliases documentadas
 
-1. Open the module folder and read its `README.md` to pick a query.
-2. Every `.sql` file starts with a header describing Purpose, Tables Used, Report Output, Parameters and Notes.
-3. Replace the `:p_*` bind variables with your values (BIP data models accept them natively as parameters).
-4. Adjust `SEGMENTn` references to your Chart of Accounts structure — segment roles vary by implementation.
+### Estrutura
 
-See [CONVENTIONS.md](./CONVENTIONS.md) for the parameterization standard and the full EBS → Fusion mapping used in the conversion.
+- `GL/` → General Ledger (balancete por segmento, razão, account analysis SLA)
+- `AP/` → Payables (aging de títulos em aberto, distribuições com PO, holds)
+- `FA/` → Assets (depreciação multi-livro, transações de custo, categorias por livro)
+- `CE/` → Cash Management (setup de conta bancária com BU e contas contábeis)
+- `CONVENTIONS.md` → Padrões de bind variables, aliases e mapeamento EBS → Fusion
 
-## Disclaimer
+### Como usar
 
-Queries target Fusion Cloud 26B and were validated against Oracle's official schema documentation (Tables and Views for Financials). Always test in a non-production environment first; column availability can vary by release and your security profile (data security predicates apply in BIP).
+1. Entre na pasta do módulo e leia o `README.md` para escolher a query
+2. Leia o cabeçalho do `.sql` — ele explica propósito, tabelas e parâmetros
+3. Substitua as bind variables `:p_*` pelos seus valores (BIP aceita nativamente como parâmetros)
+4. Ajuste as referências `SEGMENTn` à estrutura do seu plano de contas
 
-## License
+⚠️ **Teste sempre em ambiente não-produtivo primeiro.** As queries seguem a documentação oficial do 26B (Tables and Views for Financials), mas colunas variam por release e seu perfil de segurança se aplica no BIP.
 
-Free to use and adapt. A star ⭐ is appreciated.
+**Qualquer consultor Oracle ERP é bem-vindo — uma ⭐ é sempre apreciada!**
+
+---
+
+## 🇺🇸 English Version (EN-US)
+
+# SQL Queries — Oracle Fusion Cloud ERP 🍽️
+
+**Ready-to-use SQL queries by module, parameterized and documented — Oracle Fusion Cloud ERP 26B**
+
+Built by consultants for consultants. Born on real implementation projects (EBS R12 era), converted to Fusion Cloud 26B tables and views, then cleaned, parameterized and documented with AI-assisted refactoring.
+
+### What's Inside?
+
+- BI Publisher / OTBI-ready queries, organized by module
+- Zero client data — every literal became a `:p_*` bind variable
+- Standard header in every query: Purpose, Tables Used, Report Output, Parameters, Notes, Module
+- Explanatory README in each module folder
+- Documented parameterization and alias conventions
+
+### Structure
+
+- `GL/` → General Ledger (trial balance by segment, journal lines, SLA account analysis)
+- `AP/` → Payables (open invoices aging, distributions with PO, holds)
+- `FA/` → Assets (multi-book depreciation, cost transactions, categories by book)
+- `CE/` → Cash Management (bank account setup with BU and GL accounts)
+- `CONVENTIONS.md` → Bind variable standards, aliases and EBS → Fusion mapping
+
+### How to Use
+
+1. Open the module folder and read its `README.md` to pick a query
+2. Read the `.sql` header — it explains purpose, tables and parameters
+3. Replace the `:p_*` bind variables with your values (BIP accepts them natively as parameters)
+4. Adjust `SEGMENTn` references to your Chart of Accounts structure
+
+⚠️ **Always test in a non-production environment first.** Queries follow the official 26B schema documentation (Tables and Views for Financials), but columns vary by release and your security profile applies in BIP.
+
+**Any Oracle ERP consultant is welcome — a ⭐ is always appreciated!**
