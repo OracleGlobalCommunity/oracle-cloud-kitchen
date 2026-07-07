@@ -1,0 +1,127 @@
+# Oracle Procurement Contracts 🍽️
+
+**Complete collection of prompts, skills, queries, and supporting materials for Oracle Fusion Cloud Procurement Contracts.**
+
+Part of the [**Oracle Cloud Kitchen**](https://github.com/OracleGlobalCommunity/oracle-cloud-kitchen) project — an open kitchen of practical knowledge for Oracle ERP consultants.
+
+---
+
+## 🇧🇷 Versão em Português (PT-BR)
+
+### 🎯 Sobre este Módulo
+
+Esta pasta reúne todo o conhecimento necessário para dominar o **Oracle Procurement Contracts** (Contratos de Compras) no Oracle Fusion Cloud ERP.
+
+Inclui:
+- **Skill pronta** para agentes de IA (Cameron)
+- **Prompts** otimizados para NotebookLM e LLMs
+- **Queries SQL** parametrizadas por módulo (GL, AP, FA, CE)
+- **Material de apoio** (vídeos, podcast, apresentação)
+- **Recipes** de extração de conhecimento com IA
+
+---
+
+### 📁 Estrutura de Pastas
+
+| Pasta                        | Conteúdo |
+|-----------------------------|---------|
+| **`media/`**                | Vídeo overview, podcast e apresentação gerados com NotebookLM |
+| **`prompts/`**              | Prompts para NotebookLM e orquestradores |
+| **`queries/`**              | Queries SQL prontas (BI Publisher / OTBI) |
+| **`oracle-fusion-queries/`**| Queries organizadas por módulo Fusion |
+| **`recipes/`**              | Receitas de workflow com IA |
+| **`skills/`**               | Skills completas para agentes de IA |
+| **`teste/`**                | Arquivos de teste |
+
+---
+
+### 🚀 Como Usar
+
+1. **Material de Apoio** (`media/`)
+   - Comece pelo vídeo `01-video-overview-procurement-contracts.mp4`
+   - Ouça o podcast `02-podcast-procurement-contracts.mp3`
+   - Use a apresentação `03-apresentacao-procurement-contracts.pptx`
+
+2. **Skill de IA** (`skills/cameron-skill-v3.md`)
+3. **Queries SQL** (`queries/` e `oracle-fusion-queries/`)
+4. **Extraia seu próprio conhecimento** seguindo o recipe em [`recipes/extracao-de-conhecimento-com-ia`](./recipes/extracao-de-conhecimento-com-ia)
+
+---
+
+## 🇺🇸 English Version (EN-US)
+
+### 🎯 About this Module
+
+This folder contains everything you need to master **Oracle Procurement Contracts** in Oracle Fusion Cloud ERP.
+
+It includes:
+- Ready-to-use **AI Skill** (Cameron)
+- Optimized **prompts** for NotebookLM and LLMs
+- Parameterized **SQL Queries** by module (GL, AP, FA, CE)
+- Supporting **media** (video, podcast, presentation)
+- **Recipes** for AI-powered knowledge extraction
+
+---
+
+### 📁 Folder Structure
+
+| Folder                      | Content |
+|-----------------------------|---------|
+| **`media/`**                | Video overview, podcast and PowerPoint generated with NotebookLM |
+| **`prompts/`**              | Prompts for NotebookLM and orchestrators |
+| **`queries/`**              | Ready-to-use SQL queries (BI Publisher / OTBI) |
+| **`oracle-fusion-queries/`**| Fusion queries organized by module |
+| **`recipes/`**              | AI knowledge extraction workflows |
+| **`skills/`**               | Complete AI agent skills |
+| **`teste/`**                | Test and experimentation files |
+
+---
+
+### 🚀 How to Use
+
+1. **Supporting Materials** (`media/`)
+   - Start with the video: `01-video-overview-procurement-contracts.mp4`
+   - Listen to the podcast: `02-podcast-procurement-contracts.mp3`
+   - Use the presentation: `03-apresentacao-procurement-contracts.pptx`
+
+2. **AI Skill** (`skills/cameron-skill-v3.md`)
+3. **SQL Queries** (`queries/` and `oracle-fusion-queries/`)
+4. **Extract your own knowledge** using the recipe: [`recipes/extracao-de-conhecimento-com-ia`](./recipes/extracao-de-conhecimento-com-ia)
+
+---
+
+## 🛠️ Technologies & Version
+
+- **Oracle Fusion Cloud ERP**: 26B
+- **Modules**: Procurement Contracts, GL, AP, FA, CE
+- **Tools**: NotebookLM, BI Publisher, OTBI, SQL
+
+---
+
+## 👥 Target Audience
+
+- Oracle ERP Consultants (Cloud & EBS)
+- Procurement / Contracts Specialists
+- BI Analysts & Report Developers
+- Implementers and Support Teams
+
+---
+
+## 🤝 Contribution
+
+**Any Oracle ERP consultant is welcome!**
+
+- Found a bug? Open an Issue
+- Have a new query or improvement? Submit a Pull Request
+- Want a skill for another module? Join the community
+
+---
+
+## 📚 More Resources
+
+- [Oracle Cloud Kitchen - Main Repository](https://github.com/OracleGlobalCommunity/oracle-cloud-kitchen)
+- [All Prompts](https://github.com/OracleGlobalCommunity/oracle-cloud-kitchen/tree/main/prompts)
+
+---
+
+**Made with ❤️ for the Oracle Community**
